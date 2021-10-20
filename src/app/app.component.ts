@@ -23,23 +23,35 @@ export class AppComponent {
   ) {
     this.appPages = [
       {
-        title: 'Home',
+        title: 'Inicio',
         url: '/home-results',
         direct: 'root',
         icon: 'home'
       },
       {
-        title: 'About',
+        title: 'Progreso',
         url: '/about',
         direct: 'forward',
-        icon: 'information-circle-outline'
+        icon: 'stats'
+      },
+      {
+        title: 'Usuario',
+        url: '/edit-profile',
+        direct: 'forward',
+        icon: 'contact'
       },
 
       {
-        title: 'App Settings',
+        title: 'Ajustes',
         url: '/settings',
         direct: 'forward',
         icon: 'cog'
+      },
+      {
+        title: 'Salir',
+        url: '/',
+        direct: 'forward',
+        icon: 'exit'
       }
     ];
 
@@ -51,13 +63,5 @@ export class AppComponent {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     }).catch(() => {});
-  }
-
-  goToEditProgile() {
-    this.navCtrl.navigateForward('edit-profile');
-  }
-
-  logout() {
-    this.navCtrl.navigateRoot('/');
   }
 }

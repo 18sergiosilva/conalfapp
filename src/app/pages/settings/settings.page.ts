@@ -7,16 +7,13 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./settings.page.scss'],
 })
 export class SettingsPage implements OnInit {
-  lang: any;
+  letra: any = 'Molde';
+  tama:any = 'Minúscula';
   enableNotifications: any;
-  paymentMethod: any;
-  currency: any;
-  enablePromo: any;
-  enableHistory: any;
+  enableSound: any;
 
-  languages: any = ['English', 'Portuguese', 'French'];
-  paymentMethods: any = ['Paypal', 'Credit Card'];
-  currencies: any = ['USD', 'BRL', 'EUR'];
+  tipoLetras:any = ['Molde', 'Cursiva'];
+  mayusculaMinuscula:any=['Mayúscula', 'Minúscula'];
 
   constructor(public navCtrl: NavController) { }
 
