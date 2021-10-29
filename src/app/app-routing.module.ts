@@ -8,6 +8,9 @@ const routes: Routes = [
   { path: 'settings', loadChildren: './pages/settings/settings.module#SettingsPageModule' },
   { path: 'edit-profile', loadChildren: './pages/edit-profile/edit-profile.module#EditProfilePageModule' },
   { path: 'home-results', loadChildren: './pages/home-results/home-results.module#HomeResultsPageModule' },
+  { path: 'primer-sonido-i', loadChildren: './pages/niveles/1/sonidos/primer-sonido-i/primer-sonido-i.module#PrimerSonidoIPageModule' },
+  { path: 'segundo-sonido-i', loadChildren: './pages/niveles/1/sonidos/segundo-sonido-i/segundo-sonido-i.module#SegundoSonidoIPageModule' },
+
 ];
 
 @NgModule({
