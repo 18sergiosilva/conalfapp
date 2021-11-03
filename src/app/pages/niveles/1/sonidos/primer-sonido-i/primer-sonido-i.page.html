@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>Nivel 1</ion-title>
+    <ion-title>Nivel 1 - {{titulo}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -37,4 +37,8 @@
       
     </ion-card-content>
   </ion-card>
+
+  <ion-button expand="full" fill="outline" (click)="playLocalVideo()">Offline Video</ion-button>
+  <ion-button expand="full" fill="outline" (click)="playRemoteVideo()">Online Video</ion-button>
+  <ion-button expand="full" fill="outline" (click)="closeVideo()">Stop Video</ion-button>
 </ion-content>

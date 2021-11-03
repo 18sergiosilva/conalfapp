@@ -18,6 +18,8 @@ import { SearchFilterPageModule } from './pages/modal/search-filter/search-filte
 // Components
 import { NotificationsComponent } from './components/notifications/notifications.component';
 
+import { VideoPlayer } from '@ionic-native/video-player/ngx';
+
 
 @NgModule({
   declarations: [AppComponent, NotificationsComponent],
@@ -34,6 +36,7 @@ import { NotificationsComponent } from './components/notifications/notifications
   providers: [
     StatusBar,
     SplashScreen,
+    VideoPlayer,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
