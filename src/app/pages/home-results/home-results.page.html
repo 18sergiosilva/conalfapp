@@ -5,7 +5,7 @@
     </ion-buttons>
     <ion-title>
         <ion-text color="light">
-          <ion-text color="light" class="fw700">Ionic 4 Start</ion-text>
+          <ion-text color="light" class="fw700"></ion-text>
         </ion-text>
     </ion-title>
     <ion-buttons slot="end">
@@ -15,6 +15,7 @@
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
+  <!--
   <ion-toolbar color="dark">
     <ion-searchbar [(ngModel)]="searchKey"></ion-searchbar>
     <ion-buttons slot="end">
@@ -23,9 +24,11 @@
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
+  -->
 </ion-header>
 
 <ion-content>
+   <!--
   <ion-card no-margin class="no-radius">
     <ion-item lines="none" color="medium">
       <ion-label>
@@ -44,17 +47,31 @@
     </ion-item>
   </ion-card>
 
-  <ion-card class="bg-white">
-    <ion-img [src]="themeCover"></ion-img>
-    <ion-button expand="full" color="dark" (click)="presentImage(themeCover)" no-margin>
-      Modal 1: Modal Image
-    </ion-button>
-  </ion-card>
-
   <ion-button margin shape="round" expand="full" color="secondary" (click)="searchFilter()">
     Modal 2: Search Filter
   </ion-button>
   
   <popmenu></popmenu>
+    -->
+  <ion-card class="bg-white">
+    <ion-img [src]="themeCover"></ion-img>
+    <ion-button expand="full" color="dark" (click)="nivel1()" no-margin>
+      IR AL NIVEL 1
+    </ion-button>
+  </ion-card>
+  <ion-card class="bg-white opas">
+    <ion-img [src]="themeCover2"></ion-img>
+    <ion-button expand="full" color="dark" (click)="presentImage(themeCover)" no-margin disabled>
+      IR AL NIVEL 2
+    </ion-button>
+  </ion-card>
+  <ion-card class="bg-white opas">
+    <ion-img [src]="themeCover3"></ion-img>
+    <ion-button expand="full" color="dark" (click)="presentImage(themeCover)" no-margin disabled>
+      IR AL NIVEL 3
+    </ion-button>
+  </ion-card>
+
+  
 </ion-content>
   

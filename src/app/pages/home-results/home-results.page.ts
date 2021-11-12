@@ -21,7 +21,9 @@ import { NotificationsComponent } from './../../components/notifications/notific
 export class HomeResultsPage {
   searchKey = '';
   yourLocation = '123 Test Street';
-  themeCover = 'assets/img/ionic4-Start-Theme-cover.jpg';
+  themeCover = 'assets/img/letrai.png';
+  themeCover2 = 'assets/img/letrao.png';
+  themeCover3 = 'assets/img/letraa.png';
 
   constructor(
     public navCtrl: NavController,
@@ -40,6 +42,10 @@ export class HomeResultsPage {
 
   settings() {
     this.navCtrl.navigateForward('settings');
+  }
+
+  nivel1() {
+    this.navCtrl.navigateForward('primer-sonido-i');
   }
 
   async alertLocation() {

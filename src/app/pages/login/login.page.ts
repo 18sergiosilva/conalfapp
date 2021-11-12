@@ -27,7 +27,7 @@ export class LoginPage implements OnInit {
   }
 
   goToHome() {
-    this.navCtrl.navigateRoot('primer-sonido-i');
+    this.navCtrl.navigateRoot('home-results');
   }
 
 }
