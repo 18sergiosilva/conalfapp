@@ -23,6 +23,16 @@ const routes: Routes = [
   { path: 'primer-sonido-d', loadChildren: './pages/niveles/13/primer-sonido-d/primer-sonido-d.module#PrimerSonidoDPageModule' },
   { path: 'primer-sonido-c', loadChildren: './pages/niveles/14/primer-sonido-c/primer-sonido-c.module#PrimerSonidoCPageModule' },
   { path: 'primer-sonido-t', loadChildren: './pages/niveles/15/primer-sonido-t/primer-sonido-t.module#PrimerSonidoTPageModule' },
+  { path: 'segunda-pagina-l', loadChildren: './pages/niveles/6/segunda-pagina-l/segunda-pagina-l.module#SegundaPaginaLPageModule' },
+  { path: 'segundo-sonido-p', loadChildren: './pages/niveles/7/segundo-sonido-p/segundo-sonido-p.module#SegundoSonidoPPageModule' },
+  { path: 'segundo-sonido-m', loadChildren: './pages/niveles/8/segundo-sonido-m/segundo-sonido-m.module#SegundoSonidoMPageModule' },
+  { path: 'segundo-sonido-s', loadChildren: './pages/niveles/9/segundo-sonido-s/segundo-sonido-s.module#SegundoSonidoSPageModule' },
+  { path: 'segundo-sonido-b', loadChildren: './pages/niveles/10/segundo-sonido-b/segundo-sonido-b.module#SegundoSonidoBPageModule' },
+  { path: 'segundo-sonido-n', loadChildren: './pages/niveles/11/segundo-sonido-n/segundo-sonido-n.module#SegundoSonidoNPageModule' },
+  { path: 'segundo-sonido-y', loadChildren: './pages/niveles/12/segundo-sonido-y/segundo-sonido-y.module#SegundoSonidoYPageModule' },
+  { path: 'segundo-sonido-d', loadChildren: './pages/niveles/13/segundo-sonido-d/segundo-sonido-d.module#SegundoSonidoDPageModule' },
+  { path: 'segundo-sonido-c', loadChildren: './pages/niveles/14/segundo-sonido-c/segundo-sonido-c.module#SegundoSonidoCPageModule' },
+  { path: 'segundo-sonido-t', loadChildren: './pages/niveles/15/segundo-sonido-t/segundo-sonido-t.module#SegundoSonidoTPageModule' },
 
 
 ];

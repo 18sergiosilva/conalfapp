@@ -77,6 +77,46 @@ export class HomeResultsPage {
     this.navCtrl.navigateForward('primer-sonido-e');
   }
 
+  nivel6() {
+    this.navCtrl.navigateForward('primer-sonido-l');
+  }
+
+  nivel7() {
+    this.navCtrl.navigateForward('primer-sonido-p');
+  }
+
+  nivel8() {
+    this.navCtrl.navigateForward('primer-sonido-m');
+  }
+
+  nivel9() {
+    this.navCtrl.navigateForward('primer-sonido-s');
+  }
+
+  nivel10() {
+    this.navCtrl.navigateForward('primer-sonido-b');
+  }
+
+  nivel11() {
+    this.navCtrl.navigateForward('primer-sonido-n');
+  }
+
+  nivel12() {
+    this.navCtrl.navigateForward('primer-sonido-y');
+  }
+
+  nivel13() {
+    this.navCtrl.navigateForward('primer-sonido-d');
+  }
+
+  nivel14() {
+    this.navCtrl.navigateForward('primer-sonido-c');
+  }
+
+  nivel15() {
+    this.navCtrl.navigateForward('primer-sonido-t');
+  }
+
   async alertLocation() {
     const changeLocation = await this.alertCtrl.create({
       header: 'Change Location',
