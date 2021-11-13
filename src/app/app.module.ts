@@ -19,6 +19,7 @@ import { SearchFilterPageModule } from './pages/modal/search-filter/search-filte
 import { NotificationsComponent } from './components/notifications/notifications.component';
 
 import { VideoPlayer } from '@ionic-native/video-player/ngx';
+import { NativeAudio } from '@ionic-native/native-audio/ngx';
 
 
 @NgModule({
@@ -30,12 +31,14 @@ import { VideoPlayer } from '@ionic-native/video-player/ngx';
     AppRoutingModule,
     HttpClientModule,
     ImagePageModule,
+    
     SearchFilterPageModule
   ],
   entryComponents: [NotificationsComponent],
   providers: [
     StatusBar,
     SplashScreen,
+    NativeAudio,
     VideoPlayer,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],

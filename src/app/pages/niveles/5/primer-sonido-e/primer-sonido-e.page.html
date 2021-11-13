@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Nivel 5 - {{titulo}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="profile">
+  <ion-card no-margin>
+    <ion-card-content class="bg-profile">
+      <h1 class="fw700">Letra e - E</h1>
+      <br/>
+      <button  (click)="sonidoLetra()" block>
+        <img src="assets/material/5/Letra.PNG">
+      </button>
+      <br/>
+      <br/>
+      <h5 class="fw700">{{texto}}</h5>
+      <br/>
+      <button  (click)="sonidos()" block>
+        <img src="{{imagen1}}">
+      </button>
+      <br/>
+      <br/>
+      <ion-button icon-left color="secondary" (click)="siguienteImagen()">
+        <ion-icon name="arrow-round-forward"></ion-icon> 
+        Siguiente
+      </ion-button>
+      <br/>
+      <ion-button icon-left color="secondary" (click)="anteriorImagen()" *ngIf="anterior==true">
+        <ion-icon name="arrow-round-back"></ion-icon> 
+        Anterior
+      </ion-button>
+      <br/>
+      <br/>
+      
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

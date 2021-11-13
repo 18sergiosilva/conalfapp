@@ -24,6 +24,19 @@ export class HomeResultsPage {
   themeCover = 'assets/img/letrai.png';
   themeCover2 = 'assets/img/letrao.png';
   themeCover3 = 'assets/img/letraa.png';
+  themeCover4 = 'assets/img/letrau.png';
+  themeCover5 = 'assets/img/letrae.png';
+  themeCover6 = 'assets/img/letral.png';
+  themeCover7 = 'assets/img/letrap.png';
+  themeCover8 = 'assets/img/letram.png';
+  themeCover9 = 'assets/img/letras.png';
+  themeCover10 = 'assets/img/letrab.png';
+  themeCover11 = 'assets/img/letran.png';
+  themeCover12 = 'assets/img/letray.png';
+  themeCover13 = 'assets/img/letrad.png';
+  themeCover14 = 'assets/img/letrac.png';
+  themeCover15 = 'assets/img/letrat.png';
+  
 
   constructor(
     public navCtrl: NavController,
@@ -46,6 +59,22 @@ export class HomeResultsPage {
 
   nivel1() {
     this.navCtrl.navigateForward('primer-sonido-i');
+  }
+
+  nivel2() {
+    this.navCtrl.navigateForward('primer-sonido-o');
+  }
+
+  nivel3() {
+    this.navCtrl.navigateForward('primer-sonido-a');
+  }
+
+  nivel4() {
+    this.navCtrl.navigateForward('primer-sonido-u');
+  }
+
+  nivel5() {
+    this.navCtrl.navigateForward('primer-sonido-e');
   }
 
   async alertLocation() {

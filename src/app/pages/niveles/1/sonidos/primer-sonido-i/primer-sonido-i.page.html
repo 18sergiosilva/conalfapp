@@ -17,6 +17,7 @@
       </button>
       <br/>
       <br/>
+      <h5 class="fw700">{{texto}}</h5>
       <br/>
       <button  (click)="sonidos()" block>
         <img src="{{imagen1}}">
@@ -38,7 +39,4 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-button expand="full" fill="outline" (click)="playLocalVideo()">Offline Video</ion-button>
-  <ion-button expand="full" fill="outline" (click)="playRemoteVideo()">Online Video</ion-button>
-  <ion-button expand="full" fill="outline" (click)="closeVideo()">Stop Video</ion-button>
 </ion-content>
